@@ -1,0 +1,27 @@
+{
+  "name": "skylark-pkgm-logger",
+  "version": "0.2.1",
+  "description": "The logger used in the various architecture components of Bower.",
+  "author": "Bower",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/spkgm/logger/blob/master/LICENSE"
+    }
+  ],
+  "repository": "https://github.com/spkgm/spkgm/tree/master/packages/skylark-pkgm-logger",
+  "main": "lib/Logger",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "mocha": "^3.5.3"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "files": [
+    "lib"
+  ]
+}

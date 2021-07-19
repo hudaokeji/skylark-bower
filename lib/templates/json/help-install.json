@@ -14,7 +14,7 @@
         {
             "shorthand":   "-f",
             "flag":        "--force",
-            "description": "If dependencies are installed, it reinstalls all installed components. It also forces installation even when there are non-bower directories with the same name in the components directory. Also bypasses the cache and overwrites to the cache anyway."
+            "description": "If dependencies are installed, it reinstalls all installed components. It also forces installation even when there are non-spkgm directories with the same name in the components directory. Also bypasses the cache and overwrites to the cache anyway."
         },
         {
             "shorthand":   "-h",
@@ -29,12 +29,12 @@
         {
             "shorthand":   "-S",
             "flag":        "--save",
-            "description": "Save installed packages into the project's bower.json dependencies"
+            "description": "Save installed packages into the project's spkgm.json dependencies"
         },
         {
             "shorthand":   "-D",
             "flag":        "--save-dev",
-            "description": "Save installed packages into the project's bower.json devDependencies"
+            "description": "Save installed packages into the project's spkgm.json devDependencies"
         },
         {
             "shorthand":   "-E",

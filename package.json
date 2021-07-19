@@ -1,19 +1,17 @@
 {
   "private": true,
-  "name": "bower",
-  "version": "1.8.12",
-  "description": "The browser package manager",
-  "author": "Twitter",
+  "name": "skylark-pkgm",
+  "version": "0.9.0",
+  "description": "The skylark package manager",
+  "author": "Hudao",
   "license": "MIT",
-  "repository": "bower/bower",
   "main": "lib",
-  "bin": "bin/bower",
-  "homepage": "http://bower.io",
+  "bin": "bin/spkgm",
   "engines": {
     "node": ">=0.10.0"
   },
   "keywords": [
-    "bower"
+    "skylarkjs"
   ],
   "dependencies": {
     "abbrev": "^1.0.5",
@@ -100,10 +98,10 @@
     "minimist": "0.2.1"
   },
   "workspaces": [
-    "packages/bower-config",
-    "packages/bower-endpoint-parser",
-    "packages/bower-json",
-    "packages/bower-logger",
-    "packages/bower-registry-client"
+    "packages/skylark-pkgm-config",
+    "packages/skylark-pkgm-endpoint-parser",
+    "packages/skylark-pkgm-json",
+    "packages/skylark-pkgm-logger",
+    "packages/skylark-pkgm-registry-client"
   ]
 }

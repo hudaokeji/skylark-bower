@@ -1,0 +1,14 @@
+{
+  "name": "skylark-requirejs",
+  "homepage": "https://github.com/skylarkjs/skylark-requirejs",
+  "_release": "e1b87d2b32",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e1b87d2b32532da594aeb45e037176b715b9b7c7"
+  },
+  "_source": "https://github.com/skylarkjs/skylark-requirejs.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/skylarkjs/skylark-requirejs.git",
+  "_direct": true
+}

@@ -1,0 +1,18 @@
+{
+  "name": "slax-requirejs",
+  "version": "0.9.0",
+  "description": "The skylark module loader.",
+  "scripts": {
+  },
+
+  "keywords": [
+    "skylark",
+    "requirejs"
+  ],
+  "author": "Hudaokeji Co.,Ltd",
+  "dependencies": { 
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
